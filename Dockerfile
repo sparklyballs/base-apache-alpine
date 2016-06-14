@@ -23,7 +23,7 @@ apk add --no-cache \
 	wget && \
 
 # cleanup
-rm -rf /var/cache/apk/*
+ rm -rf /var/cache/apk/*
 
 # ports and volumes
 EXPOSE 80 443
